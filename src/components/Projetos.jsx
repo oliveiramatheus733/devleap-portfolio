@@ -11,7 +11,7 @@ function Projetos() {
             <div style={{ padding: 20 }}>
               <h3 style={{ color: '#00A3E0' }}>{project.title}</h3>
               <p style={{ fontSize: 14, color: '#ccc' }}>{project.description}</p>
-              <a href={project.link} style={{ display: 'inline-block', marginTop: 10, color: '#00A3E0', textDecoration: 'underline' }}>Ver mais</a>
+          
             </div>
           </div>
         ))}
